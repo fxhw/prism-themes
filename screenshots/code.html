@@ -24,10 +24,17 @@
 </head>
 
 <body>
-	<pre><code class="language-javascript">function foo(bar) {
-	var a = 42,
-	    b = 'Prism';
-	return a + bar(b);
+	<pre><code class="language-java">public static void main(String[] args) {
+        int a = 1;
+        int b = 100;
+        int numSamples = 100000;
+        ArrayList<Integer> l = new ArrayList<>();
+        HashMap<Integer, Integer> hashMap = new HashMap<>();
+
+        // Initialize HashMap with keys from a to b
+        for (int i = a; i <= b; i++) {
+            hashMap.put(i, 0);
+        }
 }</code></pre>
 
 	<script src="https://prismjs.com/prism.js"></script>
